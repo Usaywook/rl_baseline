@@ -1,0 +1,2 @@
+port: 2000
+is_multi_agent: True

@@ -1,0 +1,27 @@
+port: 2000
+is_multi_agent: False
+
+done_epsilon: 2.0
+tracking_threshold: 30.0
+trans_bound: 4.0
+
+location_start: [40.7, -7.9, 0.1] # x,y,z
+rotation_start: [0, -180, 0] # pitch, yaw, roll
+location_end: [-30,-138,0] # x,y,z
+roi: [-200, 200, 95, 315] # xmin, xmax, ymin, ymax
+
+
+target_speed: 25.0
+dt_lateral: 1.0 / 20.0
+dt_longitudinal: 1.0 / 20.0
+
+lateral_K_P: 1.0
+lateral_K_D: 0
+lateral_K_I: 0.2
+
+longitudinal_K_P: 0.8
+longitudinal_K_D: 0
+longitudinal_K_I: 0.2
+
+roi1: [-5.0, -1.0, -6.0, 2.0]
+roi2: [-5.0, -1.0, 12.0, 15.0]
