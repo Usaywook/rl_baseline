@@ -14,8 +14,8 @@ pip install numpy==1.16.4 pygame networkx gym==0.15.4 PyYAML matplotlib
    .bashrc 파일에서
 
    ```
-   export PATH=/usr/local/cuda-9.2/bin${PATH:+:${PATH}}
-   export LD_LIBRARY_PATH=/usr/local/cuda-9.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+   export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}
+   export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
    ```
 
    환경변수를 등록해주고 재부팅한다.
